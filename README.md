@@ -5,7 +5,7 @@ Small helper to fill dynamo tables with mock data. Just change the Movie and Lis
 *types.go*
 ```go
 type Movie struct {
-	ID 		int 	`json:"id"`
+	ID      int 	`json:"id"`
 	Name 	string 	`json:"name"`
 	Genre 	string 	`json:"genre"`
 	Year 	int 	`json:"year"`
